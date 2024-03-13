@@ -1,0 +1,91 @@
+.principal{
+    background-color: darkred;
+   /* width:1000px;
+    height: 550px;*/
+    padding: 10px;
+    display: inline-flex;
+    flex-direction: row;
+    align-content: center;
+    
+}
+
+
+.sub1{
+    background-color: beige;
+    width: 500px; /*
+    height:500px;*/
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 5px;
+    display: inline-flex;
+        text-align: center;
+        
+}
+.caja1{
+    background-color: chocolate;
+    width: 100px;
+    height: 240px;
+    margin: 5px;
+    flex-grow: 5;
+    font-size: 50px;
+    text-align: center;
+    flex-flow: row wrap;
+    
+   
+}
+
+.sub2{
+    background-color: blueviolet;
+    
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    
+}
+.caja2{
+    background-color: crimson;
+    width: 100px;
+    height:156px ;
+    margin: 5px;
+    flex-grow: 3;
+    text-align: center;
+    font-size: 50px;
+    
+}
+
+.sub3{
+    background-color: darkblue;
+   width: 295px; /*
+    height:500px;*/
+    margin: 5px;
+    display: inline-flex;
+    text-align: center;
+    flex-wrap: wrap;
+    
+    
+}
+
+.caja3{
+    background-color: rgb(209, 156, 23);
+    width:90px ;
+    height:100px ;
+    margin: 5px;
+    font-size: 50px;
+    text-align: center;
+    flex-flow: row wrap;
+   
+}
+.caja3-1{
+    background-color: rgb(153, 133, 82);
+    width:200px ;
+    height:115px ;
+    margin: 5px;
+    display: inline-block;
+    flex-flow: row wrap;
+    flex-grow: 5;
+    flex-basis: 200px;
+    font-size: 50px;
+    text-align: center;
+   
+}
